@@ -1,0 +1,26 @@
+{
+  "name": "trueautomation-webdriverio-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyavchik/trueautomation-webdriverio-appium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyavchik/trueautomation-webdriverio-appium/issues"
+  },
+  "homepage": "https://github.com/pyavchik/trueautomation-webdriverio-appium#readme",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.4",
+    "webdriverio": "^4.14.0"
+  }
+}
